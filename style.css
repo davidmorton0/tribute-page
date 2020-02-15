@@ -10,21 +10,25 @@ article {
   border: solid black 2px;
   padding: 1em;
 }
+
 h1 {
   text-align: center;
   font-size: 2em;
 }
+
 img {
   width: 300px;
   grid-column: 2 / 3;
   border: solid grey;
   margin: auto;
 }
+
 #img-div {
   display: grid;
   grid-template-columns: repeat(3, 33%);
   grid-template-rows: 1fr 50px;
 }
+
 #caption-div {
   display: inline-block;
   grid-area: 2 / 2 / 3 / 3;
