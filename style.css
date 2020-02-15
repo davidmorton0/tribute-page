@@ -22,6 +22,7 @@ img {
   grid-column: 1 / 2;
   border: solid grey;
   margin: auto;
+  max-width: 300px;
 }
 
 #img-div {
