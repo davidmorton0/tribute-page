@@ -6,36 +6,37 @@ article {
   width: 60%;
   margin: auto;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 1.7vw;
   background-color: LightGray;
-  border: solid black 2px;
-  padding: 1em;
+  border: solid black 3px;
+  padding: 1vw;
 }
 
 h1 {
   text-align: center;
-  font-size: 2em;
+  font-size: 3vw;
 }
 
 img {
-  width: 300px;
-  grid-column: 2 / 3;
+  width: 70%;
+  grid-column: 1 / 2;
   border: solid grey;
   margin: auto;
 }
 
 #img-div {
   display: grid;
-  grid-template-columns: repeat(3, 33%);
-  grid-template-rows: 1fr 50px;
+  grid-template-rows: 50% 50%;
 }
 
 #caption-div {
-  display: inline-block;
-  grid-area: 2 / 2 / 3 / 3;
+  grid-area: 2 / 1 / 3 / 2;
   text-align: center;
 }
 
 footer {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 1.4vw;
   background-color: black;
   color: white;
   position: fixed;
