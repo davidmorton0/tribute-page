@@ -34,3 +34,12 @@ img {
   grid-area: 2 / 2 / 3 / 3;
   text-align: center;
 }
+
+footer {
+  background-color: black;
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
