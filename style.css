@@ -1,17 +1,32 @@
+body {
+  background-color: LightBlue;
+}
+
 article {
-  background-color: 'LightBlue';
+  width: 60%;
+  margin: auto;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  background-color: LightGray;
+  border: solid black 2px;
+  padding: 1em;
+}
+h1 {
+  text-align: center;
+  font-size: 2em;
 }
 img {
-  max-width: 400px;
-  grid-column: 5 / 6;
+  width: 300px;
+  grid-column: 2 / 3;
   border: solid grey;
+  margin: auto;
 }
 #img-div {
   display: grid;
-  grid-template-columns: repeat(9, 11%);
-  grid-template-rows: 1fr 100px;
+  grid-template-columns: repeat(3, 33%);
+  grid-template-rows: 1fr 50px;
 }
 #caption-div {
   display: inline-block;
-  grid-area: 2 / 5 / 3 / 6;
+  grid-area: 2 / 2 / 3 / 3;
+  text-align: center;
 }
