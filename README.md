@@ -1,5 +1,5 @@
 # Tribute-Page
-Tribute Page - Free Code Camp Project
+## Tribute Page - Free Code Camp Project
 
 The page is a tribute to Elizabeth Garrett Anderson and contains an image and some text (from wikipedia).
 The page was made as a project as part of the Free Code Camp course on Responsive Web Design.  It uses html and css and passes the following tests:
