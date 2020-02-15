@@ -20,7 +20,7 @@ h1 {
 img {
   width: 65%;
   max-width: 300px;
-  grid-column: 1 / 2;
+  grid-row: 1 / 2;
   border: solid grey;
   margin: auto;
 }
@@ -31,7 +31,7 @@ img {
 }
 
 #caption-div {
-  grid-area: 2 / 1 / 3 / 2;
+  grid-row: 2 / 3;
   text-align: center;
 }
 
@@ -60,38 +60,7 @@ footer {
     font-size: 1.1em;
     width: 600px;
   }
-}
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  font-size: 1.4vw;
-  background-color: black;
-  color: white;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-}
-
-@media screen and (min-width: 1000px) {
-  #caption-div{
-     font-size: 1em;
+  footer {
+    font-size: 0.85em;
   }
-  h1 {
-    font-size: 1.5em;
-  }
-  img {
-    width: 400px;
-  }
-  article {
-    font-size: 1.1em;
-    width: 600px;
-  }
-}
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  font-size: 1.4vw;
-  background-color: black;
-  color: white;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
 }
